@@ -10,9 +10,6 @@ public class Lab114 {
         // 4. With Parameters and With Return Type
 
 
-
-
-        //
         //  1. Without Argument / Parameters and Without Return Type.
         //        for (int i = 0; i < 99; i++) {
         //            greet();
@@ -21,10 +18,11 @@ public class Lab114 {
         greet();
 
 
-        //  2. Without Parameters but With Return Type
+        //  2.a Without Parameters but With Return Type
         String returned_value = greet_with_hello();
         System.out.println(returned_value);
 
+        //  2.b Without Parameters but With Return Type
         int voting_age = age_of_vote();
         System.out.println(voting_age);
         if (voting_age >= 18) {
