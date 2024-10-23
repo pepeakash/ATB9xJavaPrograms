@@ -3,7 +3,7 @@ package Oct.ex_09102024;
 public class Lab021 {
     public static void main(String[] args) {
         // Store the distance between earth and moon
-        long distance_between_earth_moon = 384400000l; //in M
+        long distance_between_earth_moon = 384400000l; //in M // Capital L is used to specify the long value
         double distance_between_earth_moon2 = 384400000.865; //in M
 
         byte age= 122;

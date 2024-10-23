@@ -6,8 +6,8 @@ public class Lab019 {
 
         char grade = 'A'; // 'A', b, c , e, d, el , @ ,$ % ,@)(*,&,^,%,$,#,@,!)
 
-        float f  = 3.14f;
-        float f2 = 3.14F;
+        float f  = 3.14f; // f or F is used to specify the float value
+        float f2 = 3.14F; // f or F is used to specify the float value
 
         double d = 118.9876543;
 

@@ -5,6 +5,6 @@ public class Lab031_const {
         int a = 10, b = 23, c = 45;
         int d = 10;
 //        int d = 23; //invalid
-//         const int t = 10;
+//         const int t = 10;//invalid - const is not a keyword in Java
     }
 }

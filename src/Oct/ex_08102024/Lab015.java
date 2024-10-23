@@ -7,7 +7,7 @@ public class Lab015 {
         // How they are stored in memory?
         short s = 1000;
         int i = 109876;
-        long l = 9876543L;
+        long l = 9876543L; // CAPITAL L is used to specify the long value
 
     }
 }

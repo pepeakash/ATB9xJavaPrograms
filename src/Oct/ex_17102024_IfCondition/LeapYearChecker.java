@@ -4,6 +4,16 @@ import java.util.Scanner;
 
 public class LeapYearChecker {
     public static void main(String[] args) {
+
+        /*
+        Leap Year Check:
+If the year is divisible by 4, it might be a leap year.
+If the year is also divisible by 100, it must be divisible by 400 to be a leap year.
+If the year is not divisible by 100, it is a leap year.
+If the year is not divisible by 4, it is not a leap year.
+
+         */
+
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter a year:");

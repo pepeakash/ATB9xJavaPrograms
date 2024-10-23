@@ -10,11 +10,11 @@ public class Lab038 {
 //                % (Modulo) | Modulus - Remainder
         int a = 20;
         int b = 10;
-        System.out.println(a+b);
-        System.out.println(a-b);
-        System.out.println(a*b);
-        System.out.println(a/b);
-        System.out.println(a%b);
+        System.out.println(a+b); // 30
+        System.out.println(a-b); // 10
+        System.out.println(a*b); // 200
+        System.out.println(a/b); // 2
+        System.out.println(a%b); // 0 because 20/10 = 2 and 0 is the remainder  // 20 = 10*2 + 0
         //
 
 //      10  | 20| 2 - Q

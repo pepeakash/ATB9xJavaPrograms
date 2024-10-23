@@ -1,5 +1,14 @@
 package Oct.ex_11102024_Operators;
 
+// operator overloading is not supported in java
+// + -> behave differently with the data type.
+// + -> operator overloading
+// + -> Mathimatics Sum
+// + -> concatination
+// + -> join
+// + -> merge
+
+
 public class Lab042_operator_overloading {
     public static void main(String[] args) {
         int a = 10;

@@ -6,7 +6,7 @@ public class Lab017 {
         boolean $ = true;
         boolean _= true;
         boolean pramod_is_very_good_person = true;
-//        boolean 123pramod = true;
+//        boolean 123pramod = true;  // Variable name can't start with number
         boolean pramod123 = true;
         boolean _123 = true;
         boolean PRAMOD = true;

@@ -14,15 +14,15 @@ public class Lab040 {
 
         int a = 10;
         int b = 30;
-        boolean c = a > b;
-        System.out.println(c);
+        boolean c = a > b; // 10 > 30 -> false -> c = false
+        System.out.println(c); // false
 
-        int age_mamitha = 34;
-        int age_pramod = 34;
-        boolean result = age_pramod >= age_mamitha;
+        int age_mamitha = 34; // 34 years old
+        int age_pramod = 34; // 34 years old
+        boolean result = age_pramod >= age_mamitha; // 34 >= 34 -> true
 
 //         age_pramod > age_mamitha or age_pramod =age_mamitha
-        System.out.println(result);
+        System.out.println(result); // true
 
 
 

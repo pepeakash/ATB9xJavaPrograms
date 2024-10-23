@@ -6,6 +6,6 @@ public class Lab016 {
 //        int age= 90;
 //        // 122
         byte age = 122;
-        long phone = 9876543210L;
+        long phone = 9876543210L; // Capital L is used to specify the long value
     }
 }
