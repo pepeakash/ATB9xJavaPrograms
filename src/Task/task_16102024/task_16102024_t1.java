@@ -1,32 +1,18 @@
 package Task.task_16102024;
 
+import java.util.Scanner;
+
 public class task_16102024_t1 {
     public static void main(String[] args) {
-
-        // Finding the Largest of Three Numbers a,b,c using the Ternary Operator.
-        // condition ? value_if_true : value_if_false;
-
-        int a = -5;
-        int b = 20;
-        int c = -10;
-
-        // In future we will ask the user for these values
-        // we will take a user input
-
-        // Rough Logic
-        // a >=b && a >=c -> a : b >=c -> b : c
-
-        int result = (a >= b && a >= c) ? a : (b >= c ? b : c);
-        System.out.println("Max Number is -> " +  result);
-
-        // (a>b)?(a>c?a:c):(b>c?b:c)
-        // (a>b && a>c) ? a : (b>a && b>c) ? b: c; it is correct or not?
-
-
-
-
-
-
+        //Take a user input - Name, Age and Salary and print them in the end.
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your name \n ");
+        String name = sc.next();
+        System.out.println("enter your age \n");
+        byte age = sc.nextByte();
+        System.out.println("enter your salary \n");
+        int salary = sc.nextInt();
+        sc.close();
 
 
     }
