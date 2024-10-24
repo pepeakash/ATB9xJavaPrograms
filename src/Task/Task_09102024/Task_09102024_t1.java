@@ -1,4 +1,4 @@
-package Task_09102024;
+package Task.Task_09102024;
 
 public class Task_09102024_t1 {
     public static void main(String[] args){
