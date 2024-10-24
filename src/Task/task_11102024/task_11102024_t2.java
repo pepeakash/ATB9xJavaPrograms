@@ -1,4 +1,4 @@
-package task_11102024;
+package Task.task_11102024;
 
 public class task_11102024_t2 {
 
