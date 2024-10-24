@@ -6,12 +6,12 @@ public class Lab043 {
         String last_name = "Dutta";
         int a = 10;
         int b = 10;
-        System.out.println(first_name + last_name + a + b);
+        System.out.println(first_name + last_name + a + b); // PramodDutta1010
         // PramodDutta1010 - first operator - + performed as Concatination
-        System.out.println(a + b + first_name + last_name);
+        System.out.println(a + b + first_name + last_name); // 20PramodDutta
         // First + math -> 20PramodDutta
 
-        System.out.println(first_name + last_name + (a + b));
+        System.out.println(first_name + last_name + (a + b)); // PramodDutta20
         // BODMAS -
 
 

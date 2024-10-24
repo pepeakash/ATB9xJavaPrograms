@@ -14,7 +14,7 @@ public class Lab107 {
 
         String arg_age_string = args[0];
         // String -> Int
-        int age = Integer.parseInt(arg_age_string);
+        int age = Integer.parseInt(arg_age_string); // Integer.parseInt is used to convert string to integer
         //System.out.println(age);
 
         while (age > 0) {

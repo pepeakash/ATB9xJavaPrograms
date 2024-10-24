@@ -7,7 +7,9 @@ public class Lab059_typecasting {
         int course = 100;
         float GST = 18.45f;
         int total_price = course+(int)GST; // Narrowing -> Explicit
-        System.out.println(total_price);
+        System.out.println(total_price); // 118 because 18.45 is converted to 18
+
+
 
     }
 }

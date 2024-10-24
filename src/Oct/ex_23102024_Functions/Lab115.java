@@ -4,6 +4,8 @@ public class Lab115 {
     // Method OverLoad - OOPs
     public static void main(String[] args) {
 
+       int count = main();
+        System.out.println(count);
     }
     //  1.Without Parameters and Without Return Type
     // 2.Without Parameters but With Return Type

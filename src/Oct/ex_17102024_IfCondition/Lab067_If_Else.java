@@ -6,7 +6,7 @@ public class Lab067_If_Else {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the age.");
-        int age = sc.nextInt();
+        int age = sc.nextInt(); // console input
 
         // Allowed to vote or not
         // If age > 18 -> allowed to vote.

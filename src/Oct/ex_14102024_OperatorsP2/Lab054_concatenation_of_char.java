@@ -6,6 +6,6 @@ public class Lab054_concatenation_of_char {
         char b1 = 'B'; // 66
         // Rule - concatenation of char -> int calculation
         // a1+b1 - 65+66 -> 131
-        System.out.println(a1+b1);
+        System.out.println(a1+b1); // 131 because of ASCII values -
     }
 }

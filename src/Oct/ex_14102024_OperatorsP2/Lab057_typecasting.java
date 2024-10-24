@@ -8,13 +8,15 @@ public class Lab057_typecasting {
 
         // Widening
         byte b = 10;
-        int a = b; // Valid -> Implicit Casting - JVM
-        int a1 = (int)b; // Valid -> Explicit Casting - JVM
+        int a = b; // Valid -> Implicit Casting - JVM - lossless
+        int a1 = (int)b; // Valid -> Explicit Casting - JVM - lossless
 
         // Narrowing - Converting - Large data type - small
         int val = 200;
         //byte b2 = val; // Invalid - Implicit - JVM
-        byte b3 = (byte)val; // Valid -> Explicit - User
+        byte b3 = (byte)val; // Valid -> Explicit - User -> loss -> -56 because 200 is out of range
+        // step by step calculation
+        // 200 - 256 = -56
         System.out.println(b3);
 
     }

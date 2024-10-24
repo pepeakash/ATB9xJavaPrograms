@@ -4,10 +4,10 @@ public class Lab048 {
     public static void main(String[] args) {
         // || - OR
 
-        System.out.println(true || true);
-        System.out.println(true || false);
-        System.out.println(false || true);
-        System.out.println(false || false);
+        System.out.println(true || true); // true - because one of the condition is true
+        System.out.println(true || false); // true - because one of the condition is true
+        System.out.println(false || true); // true - because one of the condition is true
+        System.out.println(false || false); // false - because both of the condition is false
 
 
         //  And  && // only true && true returns true
@@ -16,10 +16,10 @@ public class Lab048 {
         // F || T -> F
         // F || F -> F
 
-        System.out.println(true && true);
-        System.out.println(true && false);
-        System.out.println(false && true);
-        System.out.println(false && false);
+        System.out.println(true && true); // true - because both of the condition is true
+        System.out.println(true && false); // false - because one of the condition is false
+        System.out.println(false && true); // false - because one of the condition is false
+        System.out.println(false && false); // false - because both of the condition is false
 
 
     }

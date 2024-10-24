@@ -15,7 +15,7 @@ public class Lab103_While {
 
 
         while(modi<=10){
-            System.out.println("Modi 10 Years");
+            System.out.println("Modi 10 Years"); // print 10 times
             modi++;
         }
 

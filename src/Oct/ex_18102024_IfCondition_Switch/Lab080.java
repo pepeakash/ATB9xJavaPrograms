@@ -6,7 +6,7 @@ public class Lab080 {
         int itemcode = 003;
 
         switch (itemcode){
-            case 001,002,005:
+            case 001,002,005:              // multiple case in single line is allowed in JDK 13
                 System.out.println("All of the them are Electronic Gadget");
                 break;
             case 004,006,007:

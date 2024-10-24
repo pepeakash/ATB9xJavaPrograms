@@ -6,9 +6,9 @@ public class Lab063 {
 //        // value is incremented first and then stored in the result.
 
         int a = 10;
-        int b = ++a;
-        System.out.println(b);
-        System.out.println(a);
+        int b = ++a; // a = 11, b = 11
+        System.out.println(b); // 11
+        System.out.println(a); // 11
 
 
         // Exp and Result Table

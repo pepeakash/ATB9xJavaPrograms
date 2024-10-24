@@ -38,7 +38,7 @@ public class Lab114 {
         greet_with_your_name("Amit");
         greet_with_your_name("Balaji");
 
-        // greet_with_your_name();
+//         greet_with_your_name();
 
         greet_with_first_name_last_name("pramod","dutta");
 

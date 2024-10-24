@@ -12,8 +12,8 @@ public class Lab077 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the browser");
-        String browser = scanner.next();
-        browser = browser.toLowerCase();
+        String browser = scanner.next(); // console String Input
+        browser = browser.toLowerCase(); // Convert the input to lower case
         switch (browser){
             default:
                 System.out.println("I have not idea which browser is this");

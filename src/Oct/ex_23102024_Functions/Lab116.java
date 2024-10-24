@@ -9,15 +9,15 @@ public class Lab116 {
 //        f2(); // Non Static Function cannot be called inside main method
     }
 
-    void f2() {
+    void f2() {    // Non Static Function , cannot be called inside main method
         System.out.println("Print the details");
     }
 
-    int f3() {
+    int f3() {     // Non Static Function , cannot be called inside main method
         return 19;
     }
 
-    void f4() {
+    void f4() {    // Non Static Function , cannot be called inside main method
 
     }
 

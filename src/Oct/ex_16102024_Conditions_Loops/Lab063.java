@@ -8,11 +8,11 @@ public class Lab063 {
         // age > 25 -> Drinking - Goa
         // Ternary operator
 
-        System.out.println(args[0]);
-        System.out.println(args[1]);
-        System.out.println(args[2]);
-        int age = Integer.parseInt(args[1]);
-        System.out.println(age > 25 ? "Allowed to Goa" : "Not Allowed");
+        System.out.println(args[0]); // Shesheh Trivedi -> 0 index
+        System.out.println(args[1]); // 26 -> 1 index
+        System.out.println(args[2]); // 26 -> 2 index
+        int age = Integer.parseInt(args[1]); // 26 -> 1 index
+        System.out.println(age > 25 ? "Allowed to Goa" : "Not Allowed"); // 26 > 25 -> Allowed to Goa
     }
 
 }
