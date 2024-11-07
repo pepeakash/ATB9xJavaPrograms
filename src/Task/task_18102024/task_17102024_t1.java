@@ -1,4 +1,4 @@
-package task_18102024;
+package Task.task_18102024;
 
 import java.util.Scanner;
 
