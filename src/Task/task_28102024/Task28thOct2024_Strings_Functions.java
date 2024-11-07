@@ -1,5 +1,5 @@
 // Create a Function of Sub, Sum, Mul and Div with parameter, a, b (take the parameter from the User)
-package Task.task_28102024.task_23102024;
+package Task.task_28102024;
 
 public class Task28thOct2024_Strings_Functions {
     public static void main(String[] args) {
