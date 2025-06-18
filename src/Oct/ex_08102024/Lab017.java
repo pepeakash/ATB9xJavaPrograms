@@ -1,10 +1,9 @@
 package Oct.ex_08102024;
-
 public class Lab017 {
     public static void main(String[] args) {
         // boolean 123 = true;
         boolean $ = true;
-        boolean _= true;
+        boolean _ = true;
         boolean pramod_is_very_good_person = true;
 //        boolean 123pramod = true;  // Variable name can't start with number
         boolean pramod123 = true;
@@ -13,12 +12,5 @@ public class Lab017 {
         boolean pramod_dutta = true;
         short s1 = 128;
         byte age = 127;
-
-
-
-
-
-
-
     }
 }

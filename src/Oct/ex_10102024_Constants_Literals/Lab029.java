@@ -6,9 +6,9 @@ public class Lab029 {
         final String STR="TTA";
         final double D1=999.99;
 
-        final int AGE;
-        AGE = 19;
-//        AGE = 29;
+        final int AGE; // Constant Declaration
+        AGE = 19;  // 1st time assignment
+//        AGE = 29; // 2nd time assignment not allowed
         System.out.println(AGE);
 
 

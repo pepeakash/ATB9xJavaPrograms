@@ -24,5 +24,22 @@ public class Lab138_Right_Traingle_2D {
         }
 
 
+        System.out.println();
+        System.out.println();
+
+        System.out.println("Enter the number m=5");
+        int m = sc.nextInt();
+        for (int i = m; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+
+        }
+
+
+
+
+
     }
 }

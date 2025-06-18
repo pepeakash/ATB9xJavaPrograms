@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Lab128_Arrays_Iterate {
     public static void main(String[] args) {
         int[] marks = {51, 100, 91, 87, 90};
-        System.out.println(marks.length); // .length is a property of Array to get the size of Array
+        System.out.println(marks.length); // .length is a property of Array to get the size of Array - output: 5
         System.out.println(marks[0]);
         System.out.println(marks[1]);
         System.out.println(marks[2]);

@@ -5,6 +5,7 @@ public class Lab081 {
     public static void main(String[] args) {
         int itemCode = 001; // JDK  >13
 
+        //without using break statement - using arrow symbol ->
         switch (itemCode){
             case 001 -> System.out.println("001");
             case 002 -> System.out.println("002");

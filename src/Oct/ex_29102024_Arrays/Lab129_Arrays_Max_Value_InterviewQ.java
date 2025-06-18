@@ -14,11 +14,11 @@ public class Lab129_Arrays_Max_Value_InterviewQ {
         // give_min is a method which takes an Array as input and returns an integer value
 
         System.out.printf("Max Value is %d", max_value);
-        // where %d is a placeholder for integer value
+        //printf - where %d is a placeholder for integer value
 
         System.out.println();
         System.out.printf("Min Value is %d", min_value);
-
+        //printf - where %d is a placeholder for integer value
     }
 
     // where static keyword is used to call this method directly using class name

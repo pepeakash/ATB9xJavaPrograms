@@ -8,7 +8,7 @@ public class Lab127_Arrays_Strings {
         names_atb9x[1] = "Jitin";
         names_atb9x[2] = "Nikita";
         System.out.println(names_atb9x.length); // .length is a property of Array to get the size of Array
-
+// output: 3
         boolean[] is_male_data = new boolean[2]; //Fixed length boolean Array = 2
         is_male_data[0] =  true;
         is_male_data[1] =  false;

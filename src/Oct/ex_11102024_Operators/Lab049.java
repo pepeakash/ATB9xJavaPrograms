@@ -1,5 +1,4 @@
 package Oct.ex_11102024_Operators;
-
 public class Lab049 {
     public static void main(String[] args) {
         int balaji_salary = 12;

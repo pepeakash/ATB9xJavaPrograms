@@ -24,6 +24,15 @@ public class Lab144_Constructors_P3 {
 
         fourWheelVehicleClass2.display();
 
+
+//--------------------------- Example 3 ---------------------------
+        FourWheelVehicleClass fourWheelVehicleClass3 = new FourWheelVehicleClass();
+        System.out.println(fourWheelVehicleClass3.carModel);
+        System.out.println(fourWheelVehicleClass3.carYearOfManufacture);
+        // fourWheelVehicleClass3.model
+
+        fourWheelVehicleClass3.display();
+
     }
 }
 
@@ -36,8 +45,8 @@ class FourWheelVehicleClass {
 
     // --------------------Default constructor - Without Arguments Constructor--------------------
     FourWheelVehicleClass(){
-        carModel = "D Model"; // this.model is not required because default constructor not taking any arguments
-        carYearOfManufacture  = 1990; // this.model is not required because default constructor not taking any arguments
+        this.carModel = "D Model"; // this.model is not required because default constructor not taking any arguments
+        this.carYearOfManufacture  = 1990; // this.model is not required because default constructor not taking any arguments
     }
 
     // this.model;

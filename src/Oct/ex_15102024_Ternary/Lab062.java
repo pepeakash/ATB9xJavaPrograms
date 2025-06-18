@@ -13,6 +13,7 @@ public class Lab062 {
 
         int score = 90;
         String grade = (score >= 90) ? "A" : (score >= 80) ? "B" : (score >= 70) ? "C" : (score >= 60) ? "D" : "F";
+//        String grade = score >= 90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : score >= 60 ? "D" : "F";
         System.out.println("Your Grade is -> " + grade);
         System.out.printf("Your Grade is %s", grade); // Another way to print
         // %s is a format specifier for String

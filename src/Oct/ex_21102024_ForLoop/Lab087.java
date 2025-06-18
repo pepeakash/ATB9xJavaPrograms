@@ -12,5 +12,6 @@ public class Lab087 {
         for (int i = 0; i < 10 ; ++i) { // pre or post -> ?
             System.out.println(i);
         }
+
     }
 }

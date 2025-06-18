@@ -28,7 +28,7 @@ public class Lab122_String_Equals_Part2 {
         System.out.println(s1.equals(s2)); // true
         System.out.println(s2.equals(s3)); // true
         System.out.println(s3.equals(s5)); // false - Hello != hello - case sensitive comparison
-        System.out.println(s3.equalsIgnoreCase(s5));
+        System.out.println(s3.equalsIgnoreCase(s5)); // true
 
 
 

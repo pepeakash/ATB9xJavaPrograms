@@ -30,6 +30,7 @@ public class Lab152_Ecap {
     }
 }
 
+//Public
 class PublicAttributeClassConstructor {
     public String public_string_username_attribute;
     public String public_string_password_attribute;
@@ -41,6 +42,8 @@ class PublicAttributeClassConstructor {
     }
 }
 
+
+//Private
 class PrivateAttributeClassConstructor {
 
     private String private_string_username_attribute;

@@ -2,16 +2,16 @@ package Nov.ex_06112024_OOPs_Constructors;
 
 public class Lab142_Constructors {
     public static void main(String[] args) {
-        Car tesla = new Car();
-        System.out.println(tesla.carModel);
-        System.out.println(tesla.carName);
-        System.out.println(tesla.carYearOfManufacture);
+        CarClass teslaClass = new CarClass();
+        System.out.println(teslaClass.carModelAttribute);
+        System.out.println(teslaClass.carNameAttribute);
+        System.out.println(teslaClass.carYearOfManufactureAttribute);
 
-        Car nano = new Car();
-        nano.carName = "Tata Nano";
-        System.out.println(nano.carModel);
-        System.out.println(nano.carName);
-        System.out.println(nano.carYearOfManufacture);
+        CarClass nanoClass = new CarClass();
+        nanoClass.carNameAttribute = "Tata Nano";
+        System.out.println(nanoClass.carModelAttribute);
+        System.out.println(nanoClass.carNameAttribute);
+        System.out.println(nanoClass.carYearOfManufactureAttribute);
 
 
     }

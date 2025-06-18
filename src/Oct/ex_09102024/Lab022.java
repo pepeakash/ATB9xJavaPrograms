@@ -15,7 +15,9 @@ public class Lab022 {
         System.out.println(c3);//  Ὢ :)
 
         String name = "pramod";
-        //char cc = "p";
+        System.out.println(name);
+
+        //char cc = "p"; // Double Quotes not allowed for char
 
 
     }

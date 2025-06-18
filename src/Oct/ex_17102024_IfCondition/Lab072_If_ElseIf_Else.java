@@ -1,7 +1,5 @@
 package Oct.ex_17102024_IfCondition;
-
 import java.util.Scanner;
-
 public class Lab072_If_ElseIf_Else {
     public static void main(String[] args) {
         // Condition - 2 outputs ,
@@ -23,7 +21,5 @@ public class Lab072_If_ElseIf_Else {
         }
         //=-> assigment
         // == -> comparsion
-
-
     }
 }

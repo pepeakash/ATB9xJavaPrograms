@@ -5,7 +5,7 @@ public class Lab099 {
         // Break and For Loop
         for (int i = 0; i < 50; i++) {
             if(i == 5){
-                break;
+                break; // come out of loop - in this case FOR Loop
             }
             System.out.println(i);
         }
